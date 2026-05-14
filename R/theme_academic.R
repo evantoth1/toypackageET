@@ -1,3 +1,12 @@
+#' Academic Theme
+#'
+#' @param base_size A positive integer
+#'
+#' @returns A plot with the theme added when passed through ggplot2 (centralized plot title)
+#' @importFrom ggplot2 theme_classic theme element_blank element_text
+#' @export
+#'
+#' @examples
 theme_academic <- function(base_size = 12)
 {
   ggplot2::theme_classic(base_size = base_size) +
